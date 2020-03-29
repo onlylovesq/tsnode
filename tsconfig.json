@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "es6", // 把代码编译成ES6
+    "module": "commonjs", // 把代码编译成commonjs模块 通过node使用
+    "lib": [
+      // 内置的一些库
+      "dom",
+      "es6",
+      "es2017",
+      "esnext.asynciterable"
+    ],
+    "sourceMap": true, // 是否生成sourceMap文件
+    "outDir": "./dist", // 输出的目录
+    "moduleResolution": "node", // 模块解析规则 是node模块解析
+    "removeComments": true, // 删除注释
+    "noImplicitAny": true, // 不允许隐含的any类型
+    "strictNullChecks": true, // 严格的null类型检查
+    "strictFunctionTypes": true, // 严格的函数类型检查
+    "noImplicitThis": true, // 不能出现隐式的this
+    "noUnusedLocals": true, // 不能有未用到的本地变量
+    "noUnusedParameters": true, // 不能有未使用到的参数
+    "noImplicitReturns": true, // 不能有隐式的return语句
+    "noFallthroughCasesInSwitch": true, // 不能有穿透性的switchcase
+    "allowSyntheticDefaultImports": true, // 允许默认导入
+    "esModuleInterop": true, // 允许 esModule和commonjs的模块转换
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "baseUrl": "."
+  },
+  "exclude": ["node_modules"],
+  "include": ["./src/**/*.tsx", "./src/**/*.ts"]
+}
