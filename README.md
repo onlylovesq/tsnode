@@ -33,3 +33,7 @@ npx 会默认帮你安装 create-react-app 然后使用它 用完了就自动删
 ## sequelize
 
 > Sequelize 是一个基于 promise 的 Node.js ORM,目前支持 Postgresql,MySQL,SQLite 和 Microsoft SQL Server。 它具有强大的事务支持,关联关系,预读和延迟加载,读取复制等功能
+
+## docker-compose
+
+> 可以同时启动多个镜像
